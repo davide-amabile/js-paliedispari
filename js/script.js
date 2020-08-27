@@ -2,7 +2,7 @@
 
 // chiedere la parola
 var  parolaUtente = prompt("Inserire la parola");
-// console.log(parolaUtente);
+console.log(parolaUtente);
 // separare le lettere in stringe
 var  parSep = parolaUtente.split("");
 // console.log(parSep);
@@ -11,8 +11,8 @@ var  parSep = parolaUtente.split("");
 var strInv = parSep.reverse();
 // console.log(strInv);
 
-// riunire le lettere
-var parInv = strInv.join("");
+// invertire la parola
+// var parInv = parolaUtente.split("").reverse().join("");
 // console.log(parInv);
 
 // inserire le parole dentro un array
