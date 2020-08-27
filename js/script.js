@@ -19,7 +19,7 @@ parInv = strInv.join("");
 var parFine = parolaUtente === parInv
 parFine = false;
 
-if (parFine == true) {
+if (parFine = true) {
   console.log("La parola" + " " + parolaUtente + " " + "è palindroma");
 }
 else {
