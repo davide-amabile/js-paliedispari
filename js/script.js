@@ -1,25 +1,31 @@
 // controllare se la parola è palindroma
 
-// chieder se la parola
+// chiedere la parola
 var  parolaUtente = prompt("Inserire la parola");
-
+// console.log(parolaUtente);
 // separare le lettere in stringe
 var  parSep = parolaUtente.split("");
 // console.log(parSep);
 
 // invertire le lettere separate
-strInv = parSep.reverse();
+var strInv = parSep.reverse();
 // console.log(strInv);
 
 // riunire le lettere
-parInv = strInv.join("");
+var parInv = strInv.join("");
 // console.log(parInv);
 
+// inserire le parole dentro un array
+var verUtente = [parolaUtente];
+console.log(verUtente);
+var verInv = [parInv];
+console.log(verInv);
+
 // verificare se la parola è palindroma
-var parFine = parolaUtente === parInv;
+var parFine = verUtente == verInv;
 parFine = false;
 
-if (parFine = true) {
+if (parFine == true) {
   console.log("La parola" + " " + parolaUtente + " " + "è palindroma");
 }
 else {
