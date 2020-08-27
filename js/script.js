@@ -16,7 +16,7 @@ parInv = strInv.join("");
 // console.log(parInv);
 
 // verificare se la parola è palindroma
-var parFine = parolaUtente === parInv
+var parFine = parolaUtente === parInv;
 parFine = false;
 
 if (parFine = true) {
